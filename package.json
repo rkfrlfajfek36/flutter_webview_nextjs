@@ -1,0 +1,32 @@
+{
+  "name": "flutter_webview_nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "dev:local": "next dev --webpack",
+    "dev:production": "NODE_ENV=production next dev --webpack",
+    "build": "next build --webpack",
+    "build:dev": "NODE_ENV=development next build --webpack",
+    "build:prod": "NODE_ENV=production next build --webpack",
+    "start": "next start",
+    "start:dev": "NODE_ENV=development next start",
+    "start:prod": "NODE_ENV=production next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "next": "16.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1"
+  }
+}
